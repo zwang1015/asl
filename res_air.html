@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Autonomous Systems Laboratory at UTK">
+  <meta name="keywords" content="Autonomous Systems Laboratory, University of Tennessee">
+  <meta name="author" content="Dr. Zhenbo Wang">
+  <title>Autonomous Systems Lab | UTK</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <style>
+  .dropbtn {
+    display:inline;
+    color: #ffffff;
+    text-align:center;
+    text-decoration:none;
+  }
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ff8200;
+  }
+  li.dropdown {
+    display:inline;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #58595B;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropdown-content a{
+    color: #ffffff;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  </style>
+
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><a href="https://www.utk.edu/"><img src="./img/logo_utk.png"/></a>  <a href="https://volweb.utk.edu/~zwang124/"><img src="./img/logo_asl_1.png"/></a></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown", class="current">
+              <a href="research.html" class="dropbtn">Research</a>
+              <div class="dropdown-content">
+                <!-- <a href="res_fundamental.html">Fundamental Research</a> -->
+                <a href="res_space.html">Space Systems</a>
+                <a href="res_air.html">Aerial Systems</a>
+                <a href="res_ground.html">Ground Systems</a>
+                <a href="res_power.html">Power and Energy Systems</a>
+                <a href="res_facility.html">Facility</a>
+                <a href="res_sponsors.html">Sponsors</a>
+              </div>
+            </li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="members.html">Members</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="opportunities.html">Opportunities</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase_air">
+      <div class="container">
+        <h1>Advanced Air Vehicles</h1>
+      </div>
+    </section>
+
+    <section id="main_body">
+      <div class="container">
+        <div class="box1">
+          <h2>Advanced Air Mobility</h2>
+          <p style="text-align:justify">Advanced Air Mobility (AAM) is an emerging aviation paradigm that leverages electric vertical takeoff and landing (eVTOL) vehicles, electric short takeoff and landing (eSTOL) aircraft, and uncrewed aerial systems (UAS) to transport people and cargo. In our lab, we address several critical challenges that enable scalable and safe AAM operations for both urban air mobility (UAM) and regional air mobility (RAM). We develop novel convex optimization algorithms for real-time trajectory generation, supporting both single-phase and multi-phase missions, as well as complex operations such as merging and landing. Our work integrates high-fidelity aerodynamic models with flight dynamics to achieve high-precision trajectory optimization, which is particularly important for dense UAM environments. In addition, we design deep reinforcement learning (DRL) and multi-agent reinforcement learning (MARL) frameworks to enable safe, efficient coordination of AAM vehicles at airspace intersections, merging points, and landing zones. Beyond vehicle-level control, we also focus on system-level design by developing models and frameworks for the optimization of both physical infrastructure (e.g., airports and vertiports) and digital infrastructure (e.g., air corridor networks). These efforts incorporate interactions with electric grid systems, demand modeling, and vehicle charging to enable reliable and efficient operation of large-scale AAM fleets.</p>
+          <h2>Drone Delivery</h2>
+          <p style="text-align:justify">Access to essential supplies remains a major challenge in rural and underserved areas, where transportation networks are sparse and facilities are geographically dispersed. Traditional truck-based delivery systems often face long travel times and high operational costs in these settings. To address this, we study hybrid logistics systems that combine ground vehicles with uncrewed aerial vehicles (UAVs), leveraging their complementary strengths for efficient delivery. In our lab, we develop integrated frameworks that jointly optimize facility location, delivery routing, and real-time scheduling for coordinated ground–air operations. In addition, we design smart, connected software platforms and companion mobile applications to support planning, coordination, and real-time monitoring of delivery activities. These tools aim to enhance operational efficiency, reliability, and accessibility in next-generation logistics systems.</p>
+          <h2>Aircraft Design Optimization and Control</h2>
+          <p style="text-align:justify">Next-generation aircraft are expected to operate reliably and efficiently across a wide range of conditions, including highly dynamic and uncertain environments. Achieving this performance requires development and integration of advanced guidance, control, optimization, and decision-making strategies. Our research adopts a multidisciplinary approach to develop innovative methods for aircraft design and operation across all mission phases, including takeoff, ascent, transition, cruise, descent, approach, and landing. These approaches enable aircraft to execute mission-critical maneuvers while optimizing performance metrics such as flight efficiency, safety, and operational range. In addition, we are interested in customization and application of novel UAV platforms for wider applications including wireless communication, smart agriculture, and collaborative missions with ground vehicles.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="figure_a">
+      <div class="container">
+        <div class="box2">
+          <img src="./img/air1.png">
+        </div>
+        <div class="box2">
+          <img src="./img/air2.png">
+        </div>
+        <div class="box2">
+          <img src="./img/air3.png">
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Autonomous Systems Laboratory | The University of Tennessee, Knoxville | Copyright &copy; 2018-<script>document.write(new Date().getFullYear());</script></p>
+    </footer>
+  </body>
+</html>
